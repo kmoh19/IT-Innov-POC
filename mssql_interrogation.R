@@ -9,7 +9,6 @@ library(parallel)
 library(multidplyr)
 
 #http://www.unixodbc.org/doc/FreeTDS.html for setup guidelines
-#dbconnection <- odbcConnect("MSSQLServer",uid="sa",pwd="innovation123!")
 
 dbconnection <- odbcConnect("MSSQLServer_W",uid="userid",pwd="password")
 
